@@ -48,11 +48,11 @@ document.getElementById('add-sugar').addEventListener('click', function(){
     sugar = sugar + 1;
     document.getElementById('qty-sugar').textContent = sugar;
     total = total + 1;
-    document.getElementById('qty-total').textContent = sugar;
+    document.getElementById('qty-total').textContent = total;
 })
 document.getElementById('minus-sugar').addEventListener('click', function(){
     sugar = sugar - 1;
     document.getElementsById('qty-sugar').textContent = sugar;
     total = total - 1;
-    document.getElementById('qty-total').textContent = sugar
+    document.getElementById('qty-total').textContent = total;
 })
