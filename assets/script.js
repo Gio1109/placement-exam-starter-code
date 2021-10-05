@@ -27,7 +27,7 @@ document.getElementById('qty-total').textContent = total
 document.getElementById('minus-gb').addEventListener('click', function() {
     gb = gb -1
     document.getElementById('qty-gb').textContent = gb
-    total = total + 1
+    total = total - 1
     document.getElementById('qty-total').textContent = total
 })
 // Chocolate Chip
