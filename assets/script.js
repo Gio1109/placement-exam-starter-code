@@ -52,7 +52,7 @@ document.getElementById('add-sugar').addEventListener('click', function(){
 })
 document.getElementById('minus-sugar').addEventListener('click', function(){
     sugar = sugar - 1;
-    document.getElementsById('qty-sugar').textContent = sugar;
+    document.getElementById('qty-sugar').textContent = sugar;
     total = total - 1;
     document.getElementById('qty-total').textContent = total;
 })
